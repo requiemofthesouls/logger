@@ -3,7 +3,8 @@ package logger
 const (
 	KeyServiceName = "service.name"
 
-	KeyRequestID = "request_id"
+	KeyRequestID  = "request_id"
+	KeyUserClient = "user_client"
 
 	KeyGRPCService          = "grpc.service"
 	KeyGRPCMethod           = "grpc.method"
